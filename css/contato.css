@@ -1,0 +1,109 @@
+body{
+    background-color: lightgrey !important;
+    font-family: "Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
+}
+h2{
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align : center;
+    margin-bottom: -3px;
+}
+header #logo{
+    width: 160px;
+    height: 80px;
+}
+header #gela{
+    float: right;
+    width: 60px;
+    height: 80px;
+}
+header #gelatext{
+    margin-top:15px;
+}
+nav li{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-right: 6.5em;
+    font-size : 26px;
+}
+
+footer	{
+    background-color: #363636;
+    clear:	both;
+    padding: 20px 0;
+    height:98px;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+}
+.social a	{
+    /*	tamanho	da	imagem	*/
+    height: 32px;
+    width: 32px;
+    /*	image	replacement	*/
+    display:	block;
+    text-indent:	-9999px;
+}
+#facebook{
+    background-image:	url(../imagens/facebook.png);
+}
+#twitter{
+    background-image:	url(../imagens/twitter.png);
+}
+#instagran{
+        background-image:	url(../imagens/googleplus.png);
+}
+footer .container{
+position:relative;
+}
+.social	{
+position: absolute;
+padding: 10px;
+top: 2px;
+right: 0;
+}
+.social li	{
+    float:	left;
+    margin-left: 25px;
+}
+footer p{
+    color:white;
+    position: relative;
+    padding:0px;
+    margin:-5px;
+}
+footer span{
+    color:white;
+    text-align: right;
+}
+.panel{
+    margin-left: 9%;
+}
+.contato label{
+    display:block;
+    margin-top:0.5%;
+}
+.contato input{
+    display:block;
+}
+.contato div{
+    float:left;
+}
+#Mandar {
+    text-align: center;
+    margin-left: 40%;
+}
+#Chamada{
+    text-align: center;
+    margin-left: 13%;
+}
+#Enviar{
+        background-color: #d6b672;
+        border-color: #d6b672;
+        border-radius: 100%;
+        font-size:15px;
+        text-decoration-color: #663300;
+        padding:-10px;
+}
+
